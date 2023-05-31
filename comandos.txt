@@ -1,0 +1,50 @@
+   57  git init
+   58  touch app.js
+   59  git status
+   60  git add app.js
+   61  git status
+   62  cd ..
+   63  mkdir mercadoAbierto
+   64  cd mercadoAbierto/
+   65  git init
+   66  git congig user.name "luciamarianne"
+   67  git config user.name "luciamarianne"
+   68  git config user.email "luciaabimorad@gmail.com"
+   69  touch productos.js
+   70  git status
+   71  git add productos.js 
+   72  git status
+   73  git commit -m "mi primer commit"
+   74  git status
+   75  exit
+   76  git config --global name luciamarianne
+   77  git config --global user.name "luciamarianne"
+   78  git config --global user.email "luciaabimorad@gmail.com"
+   79  exit
+   80  git config
+   81  git
+   82  git config -l
+   83  exit
+   84  git clone https://github.com/luciamarianne/prueba.git
+   85  ls
+   86  cd prueba
+   87  touch app.js
+   88  git status
+   89  git add app.js
+   90  git status
+   91  git commit -m "mi primer commit"
+   92  git status
+   93  git push origin main
+   94  git status
+   95  mkdir Actividades
+   96  cd Actividades/
+   97  mkdir "Deportes de equipo" "Deportes acuaticos" "Deportes extremos" "Deportes de mesa" "Deportes mentales"
+   98  touch Deportes\ de\ equipo/Basquet Deportes\ mentales/Ajedrez.txt Deportes\ de\ mesa/"Ping pong"
+   99  ls -R
+  100  pwd
+  101  git init
+  102  git remote add origin https://github.com/luciamarianne/Prueba-intro-3105.git
+  103  git add .
+  104  git commit "primer commit"
+  105  git commit -m "primer commit"
+  106  history 50 > comandos.txt
